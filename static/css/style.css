@@ -1,0 +1,124 @@
+body {
+    background-color: #2C3333;
+    background-image: url("../images/freebackground.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+#githubicon {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    font-size: 30px;
+}
+
+.navbarlinks a {
+    text-decoration: none;
+    color: #CBE4DE;
+    display: block;
+    float: left;
+    position: relative;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.navbarlinks a:hover {
+    background-color: #2e4f4fa2;
+    color: #CBE4DE;
+}
+
+.navbarlinks {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.content {
+    background-color: #2e4f4fa2;
+    border-radius: 50px;
+}
+
+.aboutcontent {
+    padding-top: 100px;
+    padding-left: 5px;
+    display: block;
+    float: left;
+}
+
+.aboutcontent div {
+
+    display: block;
+    float: left;
+    margin: 15px;
+}
+
+
+
+#aboutmeriter {
+    padding: 20px;
+    width: 400px;
+    height: auto;
+
+}
+
+#aboutimg {
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/portrait.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+
+
+#aboutletter {
+    width: 400px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contactcontenct {
+    padding-top: 10%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+#formwrap {
+    width: 500px;
+    height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#formwrap h1 {
+    padding-left: 150px;
+}
+
+.forminput {
+    width: 90%;
+    margin: 10px;
+}
+
+#formwrap textarea {
+    width: 90%;
+    margin: 10px;
+    resize: none;
+}
+
+#formwrap form {
+    overflow: none;
+}
+
+#formsubmit {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
