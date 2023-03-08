@@ -37,7 +37,12 @@ def contact():
     formerror = []
     if request.method == "POST":
         print(request.form)
-
+        if request.form['subject'] != '' and request.form['email'] != '' and request.form['message'] != '':
+            subject = request.form['subject']
+            email = request.form['email']
+            message = request.form['message']
+        else:
+            formerror.append('Fyll i alla fällt')
     return render_template('contact.html',formerror = formerror)
 
 @app.route('/projects')
