@@ -34,7 +34,11 @@ def about():
 
 @app.route('/contact',methods=['GET','POST'])
 def contact():
-    return render_template('contact.html')
+    formerror = []
+    if request.method == "POST":
+        print(request.form)
+
+    return render_template('contact.html',formerror = formerror)
 
 @app.route('/projects')
 def project():
